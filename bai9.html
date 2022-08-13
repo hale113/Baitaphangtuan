@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai9</title>
+</head>
+<body>
+<script>
+let a = +prompt("nhap a");
+let b = +prompt("nhap b");
+// let i;
+//a.in ra các số từ a_b
+// for (i = a ; i<=b; i++ ){
+//     document.write(i +" ")
+//}
+//b.in ra các số chia hết cho 7 dư 4 tù a đến b
+// for (i=a;i<=b;i++){
+//     if (i%7==4){
+//         document.write(i + " ")
+//      }
+//  }
+// c.tính tổng từ a đến b
+//  let sum=0;/ for (i = a ; i<=b; i++ ){
+//      sum += i;
+//  }
+//  document.write(a +sum +"<br>");
+// d.đém sô a chia het cho 7 dư 4
+//  let dem =0;
+//  for (i = a; i<=b; i++){
+//      if (i%7==4){
+//          dem++
+//      }
+//  }
+//  document.write(dem )
+//e.a>b thì in ra tích a*b a<b thì in ra tích từ a đến b
+if (a>b){
+    tich = a*b;
+}else if (a<b){
+    for (i =a;i<=b;i++){
+        tich= tich * i;
+    }
+}
+document.write(tich)
+</script>
+</body>
+</html>
